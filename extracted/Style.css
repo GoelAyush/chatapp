@@ -1,0 +1,436 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#onlinelist
+{
+
+  margin-left: 180px;
+  margin-top: 100px;
+   
+	
+}
+
+input#newpassword,input#btn2
+	{
+	visibility:hidden;
+	}
+
+
+
+
+div#color
+	{
+	  background-color: #eeeeee;
+	
+	}
+
+div#welcomemsg{
+	
+	
+	 margin-left:150px;
+
+	
+	}
+	
+	
+	
+div#chatrequest{
+	 margin-left: 700px;
+  margin-top: 100px;
+	
+	}
+
+
+
+div#social{
+
+	margin-left:680px;
+	display:inline;
+	
+}
+
+div#BroadcastBox{
+	
+	  margin-left: 150px;
+   margin-top: 80px;
+    margin-right: 380px;
+	
+	
+	}
+	
+	
+label#Wait
+	{
+	position:absolute;
+	  margin-left: 40px;
+   margin-top: 220px;
+   
+	
+	
+	}	
+
+table#filedisplay
+	{
+	
+	position:absolute;
+ margin-left: 50px;
+   margin-top: 100px;
+    margin-right: 770px;
+	
+}
+	
+	table#filedisplay td{
+	
+	
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-right:15px;
+    padding-left:15px;
+
+	}
+	
+	label#Notify{
+	position:absolute;
+	margin-left: 200px;
+    margin-top: 40px;
+	}
+	
+	
+
+label#chooseone
+{
+	position:absolute;
+	margin-left: 200px;
+    margin-top: 40px;
+    font-size: 15px;
+	
+}
+
+label#deleted{
+	position:absolute;
+	margin-left: 445px;
+    margin-top: 5px;
+	font-size: 15px;
+	
+	}
+
+
+div#FileUpload
+	{
+	
+	position:absolute;
+	margin-left: 800px;
+    margin-top: 120px;
+	
+	}
+
+
+label#deletedownload
+{
+	position:absolute;
+	margin-left: 70px;
+    margin-top: 40px;
+    font-size: 15px;
+   
+	
+}
+
+div#bar
+	{
+	width:400px;
+	margin-left:auto;
+margin-right:auto;
+margin-top:200px;
+
+	
+	}
+
+
+
+
+label#upload
+{
+	position:absolute;
+	margin-left: 800px;
+    margin-top: 40px;
+    font-size: 15px;
+   
+	
+}
+
+ 
+div#onlinelist ul {
+
+  width:400px;
+  overflow:auto;
+ 
+ 
+}
+
+
+
+	 
+ 
+div#onlinelist h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+div#onlinelist li img   {
+  float: left;
+  margin: 0 20px 0 0;
+  
+}
+ 
+div#onlinelist li p  {
+  font: 200 14px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+div#onlinelist li {
+  padding: 20px;
+  float:left;
+  line-height:1.5em;
+  border-bottom:1px solid #ccc;
+  width :90%;
+  
+}
+ 
+ 
+div#onlinelist li:hover ,table#filedisplay tr:hover {
+  background: #FF8000;
+  cursor: pointer;
+}
+	
+	
+	
+	
+}
+
+#btn1
+{
+	
+	background:url(images.jpg);
+	
+}
+
+
+div#dp{
+	position:absolute;
+	margin-top:30px;
+	margin-left:10px;
+	border-color:#000;
+	border-style:solid;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+div#panel{
+	overflow:hidden;
+	margin-top:80px;
+	}
+
+div#login{
+	
+	
+	margin-left:140px;
+	border:medium;
+	border-color:#fff;
+	padding: 10px 10px 10px 10px;
+	margin-top:60px;
+	float:left;
+	
+	
+		
+}
+div#seperator
+{
+		
+		margin-left:10%;
+	float:left;
+	margin-top:20px;
+	
+}
+
+
+div#register{
+	
+	padding: 10px 10px 10px 10px;
+	margin-left:10%;
+	float:left;
+	margin-top:60px;
+	
+	}
+	
+	
+	div#register2{
+	
+	padding: 10px 10px 10px 10px;
+	position:absolute;
+	margin-left:160px;
+	
+	margin-top:80px;
+	
+	}
+	
+
+
+.lbl{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:22px;
+	
+}
+
+
+header{
+	background:#FFF;
+	}
+
+
+div#headernav ul ,div#headernav li{
+	margin:0px;
+	display: inline;
+	background:#FF8000;
+	
+	
+}
+
+div#chatbackground{
+	
+	padding:20px 20px 20px 20px;
+	margin-left: 10px;
+    margin-top: 40px;
+	
+}
+
+#orangebar,div#orangebar1 lbl1{
+	
+	background: #FF8000;
+	height: 15px;
+	padding: 5px 0;
+	
+}
+
+div#chatpanel{
+	
+	position:absolute;
+	margin-left: 80px;
+    margin-top: 160px;
+	
+	
+	
+}
+
+div#chatpanel img#usr1{
+	
+	 margin-top:85px;
+	margin-left: 2px;
+   
+
+}
+
+
+
+div#chatpanel img#usr2{
+	
+	 margin-top:85px;
+	margin-left:5px;
+  
+	
+}
+div#audiofile{
+	
+	display: none;
+	}
+
+
+div#chatpanel textarea#box1{
+	
+	
+	position: absolute;
+	margin-left:5px;
+}
+
+div#chatpanel textarea#box2{
+	
+	
+	margin-left: 25px;
+    margin-top: 0px;
+}
+
+
+
+div#chatpanel textarea#chatboxinput{
+
+	margin-top:150px;
+	margin-left:5px;
+
+	
+	}
+	
+	
+	div#dissolve{
+	
+	margin-left:20px;
+	margin-top:20px;
+	width:300px;
+	
+	
+	
+	}
+	
+	
+
+div#headernav a:link{
+	float:right;
+	margin:2px 40px 0 0;
+	line-height:8px;
+	text-decoration:none;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	font-size:16px;
+	
+}
+#drop {
+    position: relative;
+}
+#drop input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+
+
+
+
+div#dropzone input{
+	height:30px;
+	width:30px;
+
+	
+	
+}
+
+
+
+div#bdy
+{
+background:#F36;	
+}
+
+div#headernav a:hover{
+	color:#000;
+
+}
+
+footer{
+	position:absolute;
+	bottom:0px;
+	top:auto;
+	color:#000;
+	font-family:Tahoma, Geneva, sans-serif;
+	display:inherit;
+	
+	}
